@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     string your_name;
-    long counter = 0;
+    long counter = 0; // start 0
 
     while(your_name != "Anna")
     {
@@ -16,6 +16,6 @@ int main()
     while(counter < 10)
     {
         cout << "Witaj " << your_name << " w ten wieczorek.\n"; 
-        counter++;
+        counter++; 
     }
 }
